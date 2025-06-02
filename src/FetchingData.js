@@ -1,6 +1,6 @@
 import axios from "axios";
-let quranSurahEndpoint = "http://api.alquran.cloud/v1/surah/"
-let quranAyahAudioEndpoint = " http://api.alquran.cloud/v1/ayah/"
+let quranSurahEndpoint = "https://api.alquran.cloud/v1/surah/"
+let quranAyahAudioEndpoint = " https://api.alquran.cloud/v1/ayah/"
 let recitationSheikh = "/ar.alafasy"
 let Hadith_Api_key = "$2y$10$7lkEbcyOnWWpD1ihYGHTGmqgACRW7SkTi4VChuosdvOAwa4PRi"
 let hadithURL = "https://hadithapi.com/public/api/hadiths?apiKey="
