@@ -301,7 +301,7 @@ body {
     gap: 1rem;
   }
   .header-cards .header-card {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   .header-cards .header-card p {
     font-size: 1.2rem;
@@ -319,6 +319,27 @@ body {
   }
   .surah-number {
     font-size: 1rem;
+  }
+  /*PrayerTimeCard*/
+  .prayer-times-body {
+    width: 90%;
+    max-height: 12rem !important;
+    padding: 1.2rem;
+  }
+  .Date-Time {
+    gap: 0.5rem;
+  }
+  .DateTime {
+    font-weight: 700;
+    font-size: 0.7rem !important;
+  }
+  .prayerTimes {
+    gap: 0.5rem;
+    font-size: 0.7rem !important;
+  }
+
+  .location {
+    font-size: 0.7rem;
   }
 }
 
@@ -364,6 +385,27 @@ body {
   }
   .surah-number {
     font-size: 1.2rem;
+  }
+  /*PrayerTimeCard*/
+  .prayer-times-body {
+    width: 90%;
+    max-height: 12rem !important;
+    padding: 1.2rem;
+  }
+  .Date-Time {
+    gap: 0.5rem;
+  }
+  .DateTime {
+    font-weight: 700;
+    font-size: 0.7rem !important;
+  }
+  .prayerTimes {
+    gap: 0.5rem;
+    font-size: 0.7rem !important;
+  }
+
+  .location {
+    font-size: 0.7rem;
   }
 }
 
@@ -465,6 +507,34 @@ body {
     font-size: 1.7rem;
     font-weight: 700;
   }
+  /*PrayerTimeCard*/
+  .prayer-times-body {
+    width: 70%;
+    margin-top: 5rem;
+    min-height: 16rem !important;
+    padding: 1rem;
+  }
+  .Date-Time {
+    gap: 1rem;
+  }
+  .DateTime {
+    font-weight: 700;
+    font-size: 2rem !important;
+  }
+  .prayerTimes {
+    margin-top: 2rem;
+    gap: 2rem;
+    font-size: 2rem !important;
+  }
+
+  .location {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  i {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
 }
 
 /* Extra large devices (large desktops) */
@@ -475,25 +545,29 @@ body {
   .header-title h1 {
     text-align: center;
     font-size: 4rem;
+    margin: 1rem;
   }
   .header-title p {
     text-align: center;
     font-weight: 500;
     font-size: 2.2rem;
+    margin: 1rem;
   }
   .theme-toggler i {
     font-size: 2rem;
-    margin: 0;
+    margin: 2rem;
   }
   .header-cards {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
     gap: 2rem;
   }
   .header-card {
-    padding: 0.7rem;
+    padding: 1rem;
   }
   .header-card-body {
     font-size: 1.7rem;
@@ -510,5 +584,31 @@ body {
   .surah-number {
     font-size: 1.8rem;
     font-weight: 700;
+  }
+  /*PrayerTimeCard*/
+  .prayer-times-body {
+    width: 90%;
+    min-height: 16rem !important;
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+  .Date-Time {
+    gap: 2rem;
+  }
+  .DateTime {
+    font-weight: 700;
+    font-size: 3rem !important;
+  }
+  .prayerTimes {
+    gap: 2rem;
+    font-size: 2.5rem !important;
+  }
+
+  .location {
+    font-size: 1.8rem;
+  }
+  i {
+    margin-top: 2rem;
+    font-size: 3rem;
   }
 }
