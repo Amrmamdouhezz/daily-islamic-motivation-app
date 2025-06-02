@@ -1,0 +1,46 @@
+Project Title: Daily Islamic Motivation Web App
+
+Tech Stack:
+- HTML, CSS (TailwindCSS)
+- JavaScript (ES6+)
+- React.js (with shadcn/ui components)
+- Optional: localStorage for user preferences
+
+Project Purpose:
+Create a clean, beautiful, and spiritually uplifting web app that provides daily Islamic content such as Quranic verses, Hadiths, and prayer times based on the user's location.
+
+Core Features:
+1. Tabbed Interface with:
+   - Quran: Display a daily or random verse (using AlQuran API).
+   - Hadith: Display a motivational hadith.
+   - Prayer Times: Show prayer times using Aladhan API.
+
+2. Dark Mode Toggle:
+   - Simple toggle to switch between light and dark themes.
+
+3. Responsive Design:
+   - Fully mobile-friendly and elegant on all screen sizes.
+
+4. Bonus Features (optional):
+   - Save favorite verses/hadiths using localStorage.
+   - Language switcher (Arabic/English).
+   - Daily browser notification/reminder.
+
+Component Suggestions:
+- <Header />
+- <Tabs /> with triggers for Quran, Hadith, Prayers
+- <VerseCard />, <HadithCard />, <PrayerTimeCard />
+- <DarkModeToggle />
+- <Footer />
+
+Design Aesthetic:
+- Soft green and turquoise gradients.
+- Islamic-inspired typography or calligraphy.
+- Clean layout with rounded cards and gentle shadows.
+
+Target Audience:
+- Muslims looking for daily motivation and spiritual content.
+- Recruiters evaluating frontend and React skills.
+
+Outcome:
+This project demonstrates your ability to build modern, visually appealing, interactive web apps using React and styling tools. Perfect for inclusion in a frontend portfolio.
